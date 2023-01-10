@@ -28,7 +28,7 @@ function ensure_root_permissions() {
 
 function deploy_proxy_config() {
 	
-	cat ./proxy.sh >> ${HOME}/.bashrc	
+	cat ./proxy.conf >> ${HOME}/.bashrc	
 	#cat ./proxy.sh >> ./test.txt	
 	
 	if [ $? -eq 0 ]
