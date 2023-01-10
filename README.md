@@ -1,0 +1,2 @@
+# shrc
+My shell configure
